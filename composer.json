@@ -1,0 +1,19 @@
+{
+    "name": "m.hashemi/sendemail",
+    "description": "This package send Email Aotomaticaly",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mohammadreza",
+            "email": "m.codeholic@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SendEmail\\": "/src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
