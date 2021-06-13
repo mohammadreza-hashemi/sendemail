@@ -16,6 +16,8 @@ class SendEmailProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__.'/Routes/web.php');
         $this->loadViewsFrom(__DIR__.'/Views/','send');
+        $this->loadMigrationsFrom(__DIR__.'/Database/Migrations');
+
     }
 
     /**

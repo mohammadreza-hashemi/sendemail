@@ -1,6 +1,6 @@
 <?php
 
-namespace SendEmail\Controllers;
+namespace SendEmail\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
